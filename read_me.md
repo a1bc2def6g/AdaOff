@@ -20,8 +20,8 @@ make clean && LLAMA_CUBLAS=1 make -j
 `--use-gpu`: if the offloaded ratio is lower than the turning point, our AdaOff would adopt the 
 GPU-Centric inference manner then `--use-gpu` is true, vice versa.\
 `--n-gpu-layers`: if total layer is n, when setting to n-1, AdaOff will offload the embedding weights,
-when setting to n-2, AdaOff will offload the K cache, when setting to n-3, AdaOff will offload the K and V cache\
-`-n`: total context length\
-`-c`: the kv cache length\
-`-s`: fix the random seed\
+when setting to n-2, AdaOff will offload the K cache, when setting to n-3, AdaOff will offload the K and V cache
+`-n`: total context length
+`-c`: the kv cache length
+`-s`: fix the random seed
 `-t`: the number of threads that CPU uses, only valid when AdaOff selects the CPU-Centric inference manner
