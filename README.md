@@ -9,7 +9,7 @@ We first list the dependencies of our code and then provide the commands to buil
 `Ubuntu: 20.04`\
 `CUDA: 12.4`\
 `Python: 3.7.13`\
-`Make: 4.2.1`\
+`Make: 4.2.1`
 
 # Build locally
 
