@@ -1,3 +1,5 @@
+# AdaOff: An Adaptive Offloading Framework for Efficient LLM Inference on Local PCs
+
 Dear readers, we have provided the source code to reproduce the results of our paper. The framework of AdaOff is developed based on the open-soured project llama.cpp. We construct the **Analyzer** in the file `analyzer.py`. To support our **Memory-First** technique, we build the dedicated CUDA operators in `cuda-op.cu `. Moreover, we also build the asynchronous communication kernel to implement the overlap in our **Order-Aware** technique.
 
 
